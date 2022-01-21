@@ -1,6 +1,6 @@
 const projects =[
   {
-    url: '',
+    url: 'https://react-music-one.vercel.app/',
     image: './assets/images/projects/react-music.png',
     title: 'React Music',
     desc: 'Creating with material-ui and use RESTful api',
@@ -8,6 +8,16 @@ const projects =[
       'React JS',
       'Material UI',
       'React Redux'
+    ]
+  }, 
+  {
+    url: 'https://nextjs-website-seven.vercel.app/',
+    image: './assets/images/projects/pokemon-website.png',
+    title: 'Nextjs Website',
+    desc: 'Creating with Nextjs and use Tailwind CSS frame',
+    content: [
+      'Next.js',
+      'Tailwind css'
     ]
   },
   {

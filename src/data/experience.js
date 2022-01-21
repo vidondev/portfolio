@@ -78,7 +78,7 @@ const experience = [
         ]
       }
     ],
-    date_location: 'Mar 2013 - May 2014 | Hong Kong'
+    date_location: 'Mar 2012 - May 2014 | Hong Kong'
   },
   {
     logo: './assets/images/logos/anglia-design-logo.png',
@@ -102,7 +102,7 @@ const experience = [
         ]
       }
     ],
-    date_location: 'Feb 2012 - Feb 2013 | Hong Kong'
+    date_location: 'Feb 2011 - Feb 2012 | Hong Kong'
   }
 ]
 

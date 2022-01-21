@@ -81,7 +81,7 @@ export default function Project() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
   const gridProp = {
-    lg: 4,
+    lg: 3,
     md: 6,
     sm: 12,
     xs: 12
@@ -92,11 +92,11 @@ export default function Project() {
       <ListSubheader component="div" className={classes.listSubheader}><Typography variant="h5">Projects</Typography></ListSubheader>
       <ListItem component="div">
         <div className={classes.content}>
-          <Grid alignItems="stretch" justify="center" container spacing={3}>
+          <Grid alignItems="stretch" container spacing={3}>
           {
             projects.map( (project, index) => {
               return (
-                <Grid item {...gridProp} key={project.id}>
+                <Grid item {...gridProp} key={project.id} >
                   <Card className={classes.card}>
                     <CardActionArea onClick={ () => {setExpanded(index)}}>
                       <CardMedia

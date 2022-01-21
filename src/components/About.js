@@ -36,7 +36,7 @@ export default function About() {
       <ListItem component="div">
         <div className={classes.content}>
           <Typography paragraph>
-          Have 8 years of web development experience, mostly on the Linux & OS X platform. I started with PHP for building websites. I have always invested time and effort in core skills for building website and this approach has seen me pick up new skills quickly and succeed.
+          Have 10 years of web development experience, mostly on the Linux & OS X platform. I started with PHP for building websites. I have always invested time and effort in core skills for building website and this approach has seen me pick up new skills quickly and succeed.
 
           </Typography>
           <Typography paragraph>
