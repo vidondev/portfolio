@@ -1,9 +1,36 @@
 const experience = [
   {
+    logo: './assets/images/logos/3hk.jpeg',
+    company: '3 Hong Kong (Hutchison Telecommunications (Hong Kong) Limited)',
+    href: 'https://www.three.com.hk/',
+    title: 'Senior Java Developer',
+    desc: 'Internal system & Hybrid application development',
+    summary: [
+      {
+        title: 'DEVELOP PRODUCT',
+        content: [
+          'Design Intermal system architecture',
+          'Develop Internal system',
+          'Develop Hybrid application',
+        ]
+      },
+      {
+        title: 'TOOLS',
+        content: [
+          'React JS',
+          'Next.js',
+          'React Bootstrap',
+          'GitLab, CI/CD'
+        ]
+      }
+    ],
+    date_location: 'Mar 2022 - Present | Hong Kong'
+  },
+  {
     logo: './assets/images/logos/digitcube-logo.png',
     company: 'Digitcube.com Limited.',
-    href: '//digitcube.com',
-    title: 'Senior Programmer',
+    href: '//www.digitcube.com',
+    title: 'Analyst Programmer',
     desc: 'Game studio for businesses, individuals',
     summary: [
       {
@@ -24,7 +51,7 @@ const experience = [
         ]
       }
     ],
-    date_location: 'May 2016 - Present | Hong Kong'
+    date_location: 'May 2016 - Jan 2022 | Hong Kong'
   },
   {
     logo: './assets/images/logos/dreams-hub-logo.jpg',
